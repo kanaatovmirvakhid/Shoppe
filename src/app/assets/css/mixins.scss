@@ -1,0 +1,24 @@
+@mixin tablet() {
+  @media (width <= 1279px) {
+    @content;
+  }
+}
+
+@mixin mini-tablet() {
+  @media (width <= 1000px) {
+    @content;
+  }
+}
+
+@mixin mobile() {
+  @media (width <= 700px) {
+    @content;
+  }
+}
+
+@mixin scroll-lock() {
+  html {
+    overflow: hidden;
+    scrollbar-gutter: auto;
+  }
+}

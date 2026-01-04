@@ -1,0 +1,21 @@
+body{
+  min-height: 100vh;
+  height: 100%;
+  padding: 0;
+  background: var(--light-colors-white---light);
+}
+
+html{
+  scrollbar-gutter: stable;
+  overflow: auto;
+}
+
+.hmtl-scroll-lock{
+  overflow: hidden;
+  scrollbar-gutter: auto;
+  padding-right: var(--window-scrollbar-width);
+}
+
+input[type="range"]{
+  margin: 0;
+}
